@@ -1,0 +1,195 @@
+--- !ruby/object:Game
+board: &1 !ruby/object:Board
+  size: 8
+  grid:
+  - - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 0
+      - 1
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: true
+      color: :black
+      pos:
+      - 0
+      - 3
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 0
+      - 5
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 0
+      - 7
+      board: *1
+  - - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 1
+      - 0
+      board: *1
+    - 
+    - 
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 1
+      - 4
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 1
+      - 6
+      board: *1
+    - 
+  - - 
+    - 
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 2
+      - 3
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 2
+      - 5
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :red
+      pos:
+      - 2
+      - 7
+      board: *1
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 4
+      - 3
+      board: *1
+    - 
+    - 
+    - 
+    - 
+  - - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 5
+      - 0
+      board: *1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 5
+      - 6
+      board: *1
+    - 
+  - - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 6
+      - 1
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 6
+      - 3
+      board: *1
+    - 
+    - 
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 6
+      - 7
+      board: *1
+  - - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 7
+      - 0
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 7
+      - 2
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 7
+      - 4
+      board: *1
+    - 
+    - !ruby/object:Piece
+      now_king: false
+      color: :black
+      pos:
+      - 7
+      - 6
+      board: *1
+    - 
+players:
+  :red: !ruby/object:HumanPlayer
+    color: :red
+  :black: !ruby/object:HumanPlayer
+    color: :black
+current_color: :red
+moves: 0
